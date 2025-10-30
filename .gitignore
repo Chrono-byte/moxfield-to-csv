@@ -1,0 +1,25 @@
+# Rust / Cargo
+/target/
+
+# Ignore build artifacts
+*.rlib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Package output (wasm-pack, cargo package)
+pkg/
+
+# Backup files
+*.rs.bk
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Uncomment to ignore Cargo.lock (usually committed for applications, not libraries)
+# Cargo.lock
